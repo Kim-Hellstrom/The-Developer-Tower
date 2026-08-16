@@ -1,0 +1,19 @@
+#include <iostream>
+
+/*
+    This is a short program that displays basic information about a screen.
+    It was a project to help me practice some of the fundamentals in variable storage and output.
+*/
+int main()
+{
+    const int WIDTH = 1920;
+    const int HEIGHT = 1080;
+    const std::string BRAND_NAME = "Lenovo";
+    bool turned_on = true;
+
+    std::cout << "The " << BRAND_NAME << " screen is turned on when you see\n";
+    std::cout << "a " << turned_on << " on the screen.\n";
+    std::cout << "Screen resolution: " << WIDTH << "x" << HEIGHT << "\n";
+
+    return 0;
+}

@@ -1,0 +1,18 @@
+#include <iostream>
+
+int main()
+{
+    int voltage = 13;
+    double distance = 3.5;
+    char key = 'H';
+    bool clean = true;
+    std::string color = "Green";
+
+    std::cout << "The lightbulb needs " << voltage << "V to function correctly.\n";
+    std::cout << "It's brightness level is set to " << distance << "m\n";
+    std::cout << "and needs the " << key << " button to work.\n";
+    std::cout << "it'll display a '" << clean << "' in the cli if configured correctly ";
+    std::cout << "with a crisp " << color << " bright color\n";
+
+    return 0;
+}
